@@ -1,12 +1,12 @@
 import React from 'react'
 
 // Components
-import BeginButton from '../BeginButton'
 
-export default function BorderBubble({ handleNav }) {
+
+export default function BorderBubble() {
   return (
-    <div className='shape bubble'>
-        <BeginButton handleNav={handleNav} />
+    <div className='shape'>
+      
     </div>
   )
 }

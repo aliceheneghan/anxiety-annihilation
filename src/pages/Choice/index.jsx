@@ -1,7 +1,15 @@
 import React from "react";
+import BorderBubble from "../../components/BorderBubble";
+
+// Components
+import ChoiceButton from "../../components/ChoiceButton";
 
 export default function Choice() {
   return (
-    <div>Time to make your choice (don't worry, this is the only decision you have to make and you can always change your mind)</div>
+    <div className="choice-cont flx cnt-cnt">
+      <ChoiceButton choice="Dog" />
+      <ChoiceButton choice="Space" />
+      <BorderBubble />
+    </div>
   );
 }

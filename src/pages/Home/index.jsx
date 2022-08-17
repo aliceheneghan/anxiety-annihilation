@@ -1,7 +1,10 @@
-import React from 'react'
+// Components
+import BorderBubble from "../../components/BorderBubble";
 
-export default function Home() {
+export default function Home({ handleNav }) {
   return (
-    <div>This is the homepage</div>
-  )
+    <div className="flx cnt-cnt">
+      <BorderBubble handleNav={handleNav} />
+    </div>
+  );
 }

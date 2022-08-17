@@ -1,3 +1,20 @@
-.title-font {
+/* Font Families */
+
+@font-face {
+  font-family: "BungeeShadeRegular";
+  src: local("BungeeShadeRegular"),
+   url('./BungeeShade/BungeeShade-Regular.ttf') format("truetype");
+  }
+
+/* Font Size */
+
+.xxl {
+  font-size: 8em;
+}
+
+/* Alignment */
+.text-center {
+  text-align: center;
+}.title-font {
     font-family: 'BungeeShadeRegular', cursive;
   }

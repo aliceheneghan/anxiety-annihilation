@@ -1,5 +1,5 @@
 .title-container {
-    padding: 12em 0em;
+   padding: 12em 0em;
   }
 
 .title {
@@ -7,6 +7,6 @@
 }
 
 .title-container > button {
-    width: 22em;
+    width: 150%;
     padding: 4% 10%;
 }

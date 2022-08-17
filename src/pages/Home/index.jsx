@@ -1,10 +1,10 @@
 // Components
-import BorderBubble from "../../components/BorderBubble";
+import BeginButton from '../../components/BeginButton'
 
 export default function Home({ handleNav }) {
   return (
     <div className="flx cnt-cnt">
-      <BorderBubble handleNav={handleNav} />
+      <BeginButton handleNav={handleNav} />
     </div>
   );
 }

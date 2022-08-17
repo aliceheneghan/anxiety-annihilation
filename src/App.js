@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App flx strt-cnt column">
-      <header >
+      <header>
         <Header />
       </header>
       <section className="flx cnt-cnt">

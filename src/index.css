@@ -15,9 +15,15 @@
 /* App */
 
 .App {
-  
   width: 100vw;
   min-height: 100vh;
+}
+
+/* Container */
+
+header {
+  width: 100%;
+ 
 }
 
 /* Testing */
@@ -46,9 +52,11 @@
   flex-direction: column;
 }
 
+.spc-even {
+  justify-content: space-evenly;
+}
 
 
-/* Container */
 
 
 

@@ -1,0 +1,11 @@
+.title-container {
+    padding: 12em 0em;
+  }
+
+.title {
+    padding: 0.6em 0em;
+}
+
+.title-container > button {
+    width: 22em;
+}

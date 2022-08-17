@@ -1,0 +1,10 @@
+.choice-btn-cont {
+    height: 100%;
+    width: 34%;
+}
+
+.choice-btn-cont > button {
+    width: 66%;
+    height: 90%;
+    z-index: 2;
+}

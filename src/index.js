@@ -4,6 +4,8 @@ import { BrowserRouter } from "react-router-dom";
 
 // Styles
 import './index.css';
+  // fonts
+  import './fonts/BungeeShade/BungeeShade-Regular.ttf';
 
 // Components
 import App from './App';

@@ -1,7 +1,11 @@
+/* Pages */
+@import url(./pages/Choice/style.css);
+
 /* Components */
 @import url(./components/Header/style.css);
 @import url(./components/BorderBubble/style.css);
 @import url(./components/BeginButton/style.css);
+@import url(./components/ChoiceButton/style.css);
 
 /* Fonts */
 @import url(./fonts/style.css);
@@ -19,11 +23,13 @@
   min-height: 100vh;
 }
 
-/* Container */
-
-header {
+.App > header {
   width: 100%;
- 
+}
+
+.App > section {
+  width: 100%;
+  height: 40rem;
 }
 
 /* Testing */

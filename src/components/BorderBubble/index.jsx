@@ -1,12 +1,5 @@
-import React from 'react'
-
-// Components
-
+import React from "react";
 
 export default function BorderBubble() {
-  return (
-    <div className='shape'>
-      
-    </div>
-  )
+  return <div className="shape"></div>;
 }

@@ -1,11 +1,14 @@
 /* Pages */
 @import url(./pages/Choice/style.css);
+@import url(./pages/ChoiceDog/style.css);
 
 /* Components */
 @import url(./components/Header/style.css);
 @import url(./components/BorderBubble/style.css);
 @import url(./components/BeginButton/style.css);
 @import url(./components/ChoiceButton/style.css);
+@import url(./components/Image/style.css);
+@import url(./components/ContentButton/style.css);
 
 /* Fonts */
 @import url(./fonts/style.css);

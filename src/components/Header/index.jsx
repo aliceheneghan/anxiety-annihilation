@@ -13,7 +13,6 @@ export default function Header() {
         <nav className="flx spc-even ">
             <button><StyledLink to="/">Home</StyledLink></button>
             <button><StyledLink to="/Choice">Choice</StyledLink></button>
-            <button><StyledLink to="/ListenAndLook">ListenAndLook</StyledLink></button>
         </nav>
     </div>
   )

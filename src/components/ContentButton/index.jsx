@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function ContentButton({handleClick}) {
   return (
-    <button onClick={handleClick} >Click me</button>
+    <button className="next-btn title-font m" onClick={handleClick}>Click me</button>
   )
 }

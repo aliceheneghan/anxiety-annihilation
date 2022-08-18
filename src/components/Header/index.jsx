@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-export default function Header() {
-  const StyledLink  = styled(Link)`
-  text-decoration: none;
-  color: black;
+// styled
+const StyledLink  = styled(Link)`
+text-decoration: none;
+color: black;
 `;
+
+export default function Header() {
   return (
     <div className="nav-cont flx cnt-cnt">
         <nav className="flx spc-even ">
@@ -13,7 +15,6 @@ export default function Header() {
             <button><StyledLink to="/Choice">Choice</StyledLink></button>
             <button><StyledLink to="/ListenAndLook">ListenAndLook</StyledLink></button>
         </nav>
-    {/* <button onClick={handleNavigate}>Practise navigate</ button> */}
     </div>
   )
 }

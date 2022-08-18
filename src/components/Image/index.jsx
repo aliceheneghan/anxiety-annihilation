@@ -15,18 +15,20 @@ export default function Image({ url }) {
 
   // effects
   useEffect(() => {
-    fetchRandomImage().then((data) => setImage(data.message));    
+    fetchRandomImage().then((data) => setImage(data.message));
   }, []);
 
   // handlers
   const handleClick = () => {
     const number = Math.floor(Math.random() * imageArray.length);
-    setNumber(number)
+    setNumber(number);
   };
 
   return (
-    <div className="img-cont flx column">
-      <img src={imageArray[randomNumber]} alt="" />
+    <div className="wrapper flx column cnt-cnt">
+      <div className="img-cont flx cnt-cnt ">
+        <img src={imageArray[randomNumber]} alt="" />
+      </div>
       <ContentButton handleClick={handleClick} />
     </div>
   );

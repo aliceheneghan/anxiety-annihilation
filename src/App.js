@@ -2,7 +2,7 @@ import { Routes, Route, useNavigate } from "react-router-dom";
 
 // Pages
 import Home from "./pages/Home";
-import ChoiceRouter from "./pages/ChoiceRouter";
+import Choice from './pages/Choice';
 
 // Components
 import Header from "./components/Header";
@@ -24,7 +24,7 @@ function App() {
       <section className="flx cnt-cnt">
         <Routes >
           <Route path="/" element={<Home handleNav={handleNav} />} />
-          <Route path="/choice/*" element={<ChoiceRouter />} />
+          <Route path="/choice" element={<Choice handleNav={handleNav} />} />
 
           {/* Fallback route 
             <Route

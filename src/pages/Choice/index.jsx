@@ -1,17 +1,26 @@
-import React from "react";
+import { Routes, Route } from "react-router-dom";
 
-// Components
-import BorderBubble from "../../components/BorderBubble";
+// Pages
+import ChoiceDog from '../ChoiceDog';
+import ChoiceSpace from '../ChoiceSpace';
 
 // Components
 import ChoiceButton from "../../components/ChoiceButton";
+import BorderBubble from "../../components/BorderBubble";
 
-export default function Choice() {
+export default function Choice({ handleNav }) {
   return (
-    <div className="choice-cont flx cnt-cnt">
-      <ChoiceButton choice="Dog" />
-      <ChoiceButton choice="Space" />
-      <BorderBubble />
-    </div>
+    <>
+      <Routes>
+        <Route path="/choice" element={<Choice handleNav={handleNav} />} />
+        <Route path="/choiceDog" element={<ChoiceDog />} />
+        <Route path="/choiceSpace" element={<ChoiceSpace />} />
+      </Routes>
+      <div className="choice-cont flx cnt-cnt">
+        <ChoiceButton choice="Dog" handleNav={handleNav} />
+        <ChoiceButton choice="Space" handleNav={handleNav} />
+        <BorderBubble />
+      </div>
+    </>
   );
 }
